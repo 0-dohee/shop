@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/*
+#F7E9EB
+#F5C5DA
+#EB81A7
+#FBADB9
+#FCC8C5
+#FBF2DF
+*/
+
+
+body {
+	background: #FBF2DF;
+}
+
+#header {
+	text-align: center;
+	margin-top: 50px;
+	font-family: "타이포_쌍문동";
+	font-size: 20px;
+}
+
+#divPage {
+	width: 980px;
+	background: #F7E9EB;
+	box-shadow: 10px 10px 10px blak;
+	margin: auto;
+	padding: 0px 0px 20px 0px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#divMenu {
+	margin: auto;
+	overflow: hidden;
+	background: #EB81A7;
+	padding: 15px 0px 15px 20px;
+	border-bottom: 1px solid #FBF2DF;
+}
+
+#divMenu .item {
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+
+#divHeader {
+	text-align: center;
+	font-family: "타이포_쌍문동";
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#divCondition {
+	width: 780px;
+	margin: auto;
+	overflow: hidden;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	background: #FCC8C5;
+}
+
+#divSearch {
+	float: left;
+}
+
+#divSort {
+	float: right;
+}
+
+#tbl, #tblInfo, #tblOrder {
+	width: 800px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#tblPurchase, #tblOrder {
+	width: 800px;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#tblPurchase input {
+	border:none;
+}
+
+#pagination {
+	width: 800px;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+
+.title1 {
+	background:#EDEEEF;
+	text-align:center;
+}
+
+.row1 {
+	background:white;
+}
+
+.price, .quantity, .sum {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+a:hover {
+	font-weight: bold;
+	color: white;
+	border-bottom: 3px solid #FBF2DF;
+}
+
+select, input, button {
+	height: 23px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid black;
+	height: 30px;
+	font-size: 12px;
+	padding: 0px 5px 0px 5px;
+}
+
+table .title {
+	background: #FCC8C5;
+	text-align: center;
+}
+
+table .row {
+	background: white;
+}
+
+table .row:hover {
+	background: #FBF2DF;
+}
+
+input, button, select, textarea {
+	font-size: 12px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+	height: 12px;
+}
+
+td button {
+	text-align: center;
+}
+
+textarea {
+	margin: 5px 0px 5px 0px;
+}
+
+#txtWord {
+	height: 18px;
+}
+
+#line {
+	text-align: center;
+}
